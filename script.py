@@ -11,7 +11,7 @@ def job():
     x += 1
 
 for arg in sys.argv:
-    if arg != "script.py":
+    if arg != os.path.basename(__file__):
         schedule.every().day.at(arg).do(job)
 
 while True:
