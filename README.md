@@ -1,4 +1,4 @@
-Really simple speedtest daily python script.
+Really simple speedtest schedule daily python script.
 Need to install schedule and speedtest packages using pip:
 
 https://pypi.org/project/speedtest-cli/
